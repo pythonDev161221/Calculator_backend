@@ -29,7 +29,7 @@ BOT_TOKEN = os.getenv("8154701113:AAFyOpD51NConbfTiFJ9TkxLGG00WYz_Sxc")
 WEBHOOK_URL = os.getenv("https://calculator-backend-20z7.onrender.com")  # e.g. https://your-service-name.onrender.com
 
 app = Flask(__name__)
-telegram_app = Application.builder().token(8154701113:AAFyOpD51NConbfTiFJ9TkxLGG00WYz_Sxc).build()
+telegram_app = Application.builder().token(BOT_TOKEN).build()
 
 # --- Telegram bot handler ---
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
