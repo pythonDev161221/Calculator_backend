@@ -29,6 +29,7 @@ from telegram import Update, WebAppInfo, ReplyKeyboardMarkup, KeyboardButton
 from telegram.ext import Application, CommandHandler, ContextTypes
 
 BOT_TOKEN = os.getenv("8154701113:AAH-1rDg_6wq9VUy5-unFpOhphRQ8TN5Oy0")
+print("DEBUG BOT_TOKEN =", BOT_TOKEN)
 WEBHOOK_URL = os.getenv("https://calculator-backend-wbrx.onrender.com")  # e.g. https://your-service-name.onrender.com
 
 app = Flask(__name__)
