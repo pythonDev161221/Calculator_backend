@@ -8,11 +8,11 @@ from telegram import Update, WebAppInfo, ReplyKeyboardMarkup, KeyboardButton
 from telegram.ext import Application, CommandHandler, ContextTypes
 
 # --- Load Environment Variables ---
-BOT_TOKEN = os.getenv("8154701113:AAH-1rDg_6wq9VUy5-unFpOhphRQ8TN5Oy0")
-WEBHOOK_URL = os.getenv("https://calculator-backend-wbrx.onrender.com")
+# BOT_TOKEN = os.getenv("8154701113:AAH-1rDg_6wq9VUy5-unFpOhphRQ8TN5Oy0")
+# WEBHOOK_URL = os.getenv("https://calculator-backend-wbrx.onrender.com")
 
-print("DEBUG BOT_TOKEN =", {BOT_TOKEN})
-print("DEBUG WEBHOOK_URL =", {WEBHOOK_URL})
+# print("DEBUG BOT_TOKEN =", {BOT_TOKEN})
+# print("DEBUG WEBHOOK_URL =", {WEBHOOK_URL})
 
 # --- Flask App ---
 app = Flask(__name__)
